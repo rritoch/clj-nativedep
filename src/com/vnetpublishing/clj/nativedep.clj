@@ -1,4 +1,9 @@
-(ns com.vnetpublishing.clj.nativedep
+;com.vnetpublishing.clj.nativedep
+; <br />Author: Ralph Ritoch <rritoch@gmail.com>
+(ns ^{
+     :author "Ralph Ritoch <rritoch@gmail.com>"
+     :doc "Clojure Native Dependency Support Library"
+   } com.vnetpublishing.clj.nativedep
   (:gen-class
      :name com.vnetpublishing.clj.nativedep
      :prefix -
@@ -9,6 +14,7 @@
       ]
   )
 )
+
 (defn get-system-properties
   "Get System Properties"
   []
@@ -31,7 +37,7 @@
 )
 
 (defn get-arch-name
-  "Get Architecture Name"
+  "Get current nativedep architecture name"
   []
   (let [properties (get-system-properties)
       normal-os (if (:os.name properties) (clojure.string/lower-case (clojure.string/replace (:os.name properties) #"\s+" "-")) "")
@@ -78,6 +84,7 @@
 )
 
 (defn load-resource
+  "Load native dependency from resource"
   [resource-path app-id app-version lib-name]
   (let [
      arch-name (get-arch-name)
@@ -175,8 +182,9 @@
 )
 
 (defn -loadResource
-  "Load Resource (interop)"
+  "Load native dependency from resource (interop)"
   [resource-path app-id app-version lib-name]
   (load-resource resource-path app-id app-version lib-name)
 )
 
+;; End of namespace com.vnetpublishing.clj.nativedep
