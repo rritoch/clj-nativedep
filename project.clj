@@ -18,5 +18,7 @@
 
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :aot :all
+  :jar-name "clj-nativedep-lib-0.1.0.jar"
+  :uberjar-name "clj-nativedep-0.1.0.jar"
 )
 
