@@ -7,10 +7,15 @@ in projects.
 
 Add [clj-nativedep "0.1.0"] to your project.clj dependencies.
 
-(use 'com.vnetpublishing.clj.nativedep)
-(load-resource resource_path app_id app_version lib_name)
 
-See API documentation for more information
+
+(use 'com.vnetpublishing.clj.nativedep)<br />
+(load-resource resource_path app_id app_version lib_name)<br />
+<br />
+Example:<br />
+(load-resource "/mylib.dll" "my-app-name" "1.0.0" "mylib")<br />
+
+See API documentation in doc/ for more information
 
 ### From Java
 
