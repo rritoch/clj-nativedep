@@ -1,6 +1,6 @@
 # clj-nativedep
 
-A Clojure library designed to normalise inclusion of native libraries
+A Clojure library designed to normalize inclusion of native libraries
 in projects.
 
 ## Usage
