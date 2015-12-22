@@ -28,14 +28,14 @@ applications in the namespace com.vnetpublishing.clj.nativedep
    String app_id, 
    String app_version, 
    String lib_name) - Calls (load-resource resource_path app_id app_version lib_name)
+ 
+### Install to localrepo from sources
 
-### Install to localrepo
-
-Execute the following
+Execute the following from the project directory (containing project.clj)
 
 lein install
 
-Finally add [clj-nativedep "0.2.0"] to your project.clj dependencies
+Finally add [clj-nativedep "0.2.1-SNAPSHOT"] to your project.clj dependencies
 
 ## License
 

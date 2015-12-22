@@ -1,4 +1,4 @@
-(defproject clj-nativedep "0.2.0"
+(defproject clj-nativedep "0.2.1-SNAPSHOT"
   :description "Clojure native dependency loader"
   :url "http://www.vnetpublishing.com"
   :license {:name "VNETLPL - Limited Public License"
