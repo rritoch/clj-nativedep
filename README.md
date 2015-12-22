@@ -5,8 +5,7 @@ in projects.
 
 ## Usage
 
-Add [clj-nativedep "0.1.0"] to your project.clj dependencies.
-
+Add [clj-nativedep "0.2.0"] to your project.clj dependencies.
 
 
 (use 'com.vnetpublishing.clj.nativedep)<br />
@@ -23,6 +22,7 @@ The following java interoperability methods are available for Java
 applications in the namespace com.vnetpublishing.clj.nativedep
 
 * Boolean isWin() - Calls (win?)
+* Boolean isMac() - Calls (mac?)
 * String getArchName() - Calls (get-arch-name)
 * void loadResource(String resource_path, 
    String app_id, 
@@ -33,10 +33,9 @@ applications in the namespace com.vnetpublishing.clj.nativedep
 
 Execute the following
 
-lein uberjar <br />
-lein localrepo install target/clj-nativedep-0.1.8-standalone.jar com.vnetpublishing.clj/clj-nativedep 0.1.0
+lein install
 
-Finally add [com.vnetpublishing.clj/clj-nativedep "0.1.0"] to your project.clj dependencies
+Finally add [clj-nativedep "0.2.0"] to your project.clj dependencies
 
 ## License
 
