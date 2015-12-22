@@ -39,5 +39,5 @@ Finally add [clj-nativedep "0.2.0"] to your project.clj dependencies
 
 ## License
 
-Copyright © 2014 Ralph Ritoch - ALL RIGHTS RESERVED
+Copyright © 2014-2015 Ralph Ritoch - ALL RIGHTS RESERVED
 
