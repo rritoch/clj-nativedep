@@ -141,7 +141,7 @@
 (defn -isMac
   "Is Macintosh? (interop)"
   []
-  (win?))
+  (mac?))
 
 (defn -getArchName
   "Get Architecture Name (interop)"
