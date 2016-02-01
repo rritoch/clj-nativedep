@@ -1,4 +1,4 @@
-(defproject clj-nativedep "0.2.1"
+(defproject clj-nativedep "0.2.2-SNAPSHOT"
   :description "Clojure native dependency loader"
   :url "http://www.vnetpublishing.com"
   :license {:name "VNETLPL - Limited Public License"
@@ -11,6 +11,6 @@
           :src-linenum-anchor-prefix "L"}
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :aot :all
-  :jar-name "clj-nativedep-lib-0.2.1.jar"
-  :uberjar-name "clj-nativedep-0.2.1.jar")
+  :jar-name "clj-nativedep-lib-0.2.2.jar"
+  :uberjar-name "clj-nativedep-0.2.2.jar")
 
