@@ -2865,11 +2865,11 @@ net.brehaut.ClojureTools = (function (SH) {
     build_tree: build_tree
   };
 })(SyntaxHighlighter);
-</script><title>clj-nativedep -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name"><a href="http://www.vnetpublishing.com">clj-nativedep</a></h1><h2 class="project-version">0.2.0</h2><br /><p>Clojure native dependency loader</p>
+</script><title>clj-nativedep -- Marginalia</title></head><body><table><tr><td class="docs"><div class="header"><h1 class="project-name"><a href="http://www.vnetpublishing.com">clj-nativedep</a></h1><h2 class="project-version">0.2.1</h2><br /><p>Clojure native dependency loader</p>
 </div><div class="dependencies"><h3>dependencies</h3><table><tr><td class="dep-name">org.clojure/clojure</td><td class="dotted"><hr /></td><td class="dep-version">1.5.1</td></tr></table></div></td><td class="codes" style="text-align: center; vertical-align: middle;color: #666;padding-right:20px"><br /><br /><br />(this space intentionally left almost blank)</td></tr><tr><td class="docs"><div class="toc"><a name="toc"><h3>namespaces</h3></a><ul><li><a href="#com.vnetpublishing.clj.nativedep">com.vnetpublishing.clj.nativedep</a></li></ul></div></td><td class="codes">&nbsp;</td></tr><tr><td class="docs"><div class="docs-header"><a class="anchor" href="#com.vnetpublishing.clj.nativedep" name="com.vnetpublishing.clj.nativedep"><h1 class="project-name">com.vnetpublishing.clj.nativedep</h1><a class="toc-link" href="#toc">toc</a></a></div></td><td class="codes" /></tr><tr><td class="docs"><p>Clojure Native Dependency Support Library</p>
 
 <p>com.vnetpublishing.clj.nativedep
-<br />Author: Ralph Ritoch <a href="&#109;&#97;&#x69;&#x6c;t&#x6f;&#x3a;&#x72;&#x72;&#x69;&#116;&#111;&#x63;&#104;&#x40;&#103;&#109;&#97;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;">&#x72;&#x72;&#105;&#116;&#x6f;&#99;&#x68;&#64;&#x67;&#109;&#97;&#x69;l&#46;&#99;&#x6f;&#x6d;</a></p>
+<br />Author: Ralph Ritoch <a href="&#109;&#x61;i&#108;&#116;&#x6f;&#x3a;&#x72;r&#105;&#116;&#x6f;&#x63;&#104;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#46;&#99;&#111;&#109;">&#x72;&#114;&#105;&#x74;o&#99;&#x68;@&#103;&#109;&#x61;&#105;&#x6c;&#46;&#x63;&#111;&#x6d;</a></p>
 </td><td class="codes"><pre class="brush: clojure">(ns ^{
      :author &quot;Ralph Ritoch &lt;rritoch@gmail.com&gt;&quot;
      :doc 
@@ -2993,7 +2993,7 @@ net.brehaut.ClojureTools = (function (SH) {
   (win?))</pre></td></tr><tr><td class="docs"><p>Is Macintosh? (interop)</p>
 </td><td class="codes"><pre class="brush: clojure">(defn -isMac
   []
-  (win?))</pre></td></tr><tr><td class="docs"><p>Get Architecture Name (interop)</p>
+  (mac?))</pre></td></tr><tr><td class="docs"><p>Get Architecture Name (interop)</p>
 </td><td class="codes"><pre class="brush: clojure">(defn -getArchName
   []
   (get-arch-name))</pre></td></tr><tr><td class="docs"><p>Load native dependency from resource (interop)</p>

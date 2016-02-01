@@ -5,7 +5,7 @@ in projects.
 
 ## Usage
 
-Add [clj-nativedep "0.2.0"] to your project.clj dependencies.
+Add [clj-nativedep "0.2.1"] to your project.clj dependencies.
 
 
 (use 'com.vnetpublishing.clj.nativedep)<br />
@@ -35,7 +35,7 @@ Execute the following from the project directory (containing project.clj)
 
 lein install
 
-Finally add [clj-nativedep "0.2.1-SNAPSHOT"] to your project.clj dependencies
+Finally add [clj-nativedep "0.2.2-SNAPSHOT"] to your project.clj dependencies
 
 ## License
 

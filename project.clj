@@ -1,4 +1,4 @@
-(defproject clj-nativedep "0.2.1-SNAPSHOT"
+(defproject clj-nativedep "0.2.1"
   :description "Clojure native dependency loader"
   :url "http://www.vnetpublishing.com"
   :license {:name "VNETLPL - Limited Public License"
@@ -7,7 +7,7 @@
             [lein-marginalia "0.8.0"]
             [lein-localrepo "0.5.3"]]
   :codox {:output-path "doc/codox"
-          :source-uri "https://github.com/rritoch/clj-nativedep/tree/v0.2.0/{filepath}#L{line}" 
+          :source-uri "https://github.com/rritoch/clj-nativedep/tree/v0.2.1/{filepath}#L{line}" 
           :src-linenum-anchor-prefix "L"}
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :aot :all
