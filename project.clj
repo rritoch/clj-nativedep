@@ -3,7 +3,7 @@
   :url "http://www.vnetpublishing.com"
   :license {:name "VNETLPL - Limited Public License"
             :url "http://www.vnetpublishing.com/Legal/Licenses/2010/10/vnetlpl.txt"}
-  :plugins [[lein-codox "0.9.1"]
+  :plugins [[lein-codox "0.9.2"]
             [lein-marginalia "0.8.0"]
             [lein-localrepo "0.5.3"]]
   :codox {:output-path "doc/codox"
